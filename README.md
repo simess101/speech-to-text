@@ -6,6 +6,7 @@ A comprehensive web application that converts audio input into written text usin
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Pictures](#pictures)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
   - [1. Clone the Repository](#1-clone-the-repository)
@@ -24,7 +25,6 @@ A comprehensive web application that converts audio input into written text usin
 - [Project Structure](#project-structure)
 - [Additional Notes](#additional-notes)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Features
@@ -44,8 +44,10 @@ A comprehensive web application that converts audio input into written text usin
 - **Containerization**: Docker, Docker Compose
 - **Other Tools**: FFmpeg, PyDub
 
-## Prerequisites
+## Pictures
+![Audio File to Transcript](./photos/Screenshot%202024-12-24%20at%2010.49.25%20AM.jpg)
 
+## Prerequisites
 Ensure you have the following installed on your machine:
 
 - [Git](https://git-scm.com/downloads)
@@ -256,5 +258,5 @@ git push origin feature/YourFeatureName
 
 5. Open a Pull Request
 
-Contact
+## Contact
 For further assistance or questions, please contact simess@vcu.edu
