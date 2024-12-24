@@ -1,0 +1,23 @@
+# Python
+*.pyc
+__pycache__/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+/staticfiles/
+media/
+
+# Node
+/node_modules/
+/build/
+
+# Environment Variables
+.env

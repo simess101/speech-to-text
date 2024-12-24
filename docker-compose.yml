@@ -1,0 +1,22 @@
+version: "3.9"
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    volumes:
+      - ./backend:/app
+    environment:
+      - ALLOWED_HOSTS=localhost,127.0.0.1,yourdomain.com
+
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: Speech-To-Text
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Fluffyest101
+    ports:
+      - "5432:5432"

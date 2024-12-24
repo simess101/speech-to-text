@@ -1,0 +1,6 @@
+Django
+djangorestframework
+torch
+psycopg2-binary
+django-cors-headers
+openai-whisper
